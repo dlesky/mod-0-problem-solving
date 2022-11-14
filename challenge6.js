@@ -19,7 +19,7 @@ console.log(words)
 for (var i = 0; i< words.length;i++) {
     solution.push(words[i][0].toUpperCase()+words[i].slice(1,));
 }
-// console.log(solution.join(" "))
+console.log(solution.join(" "))
 
 //Strings are immutable primtives in JS (I keep forgetting this), so I wasn't able to update the original string (took me a minute), hence pushing the new words into the solution array. 
 //and since I'm on a one-liner kick... definitely had some help from stackoverflow 
